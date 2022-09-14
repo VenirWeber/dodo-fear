@@ -1,0 +1,14 @@
+hello monke
+cd /"название каталога"
+cd ~ 
+cd ..
+ls -la просмотреть файлы в каталоге
+ls -la / просмотреть все файлы в каталоге
+cat .bash_history
+tac .bash_history
+touch filename создать файл в каталоге
+nano filename редактировать файл в каталоге
+ctrl + x выйти из редактора
+ctrl + c прервать процесс в консоли
+clear очистить консоль
+rm filename удаление файла
