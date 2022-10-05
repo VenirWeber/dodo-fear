@@ -1,0 +1,11 @@
+#!/bin/bash
+mkdir fsh1
+read -p "введите ссылку: " url
+cd ./fsh1
+git clone $url
+mkdir ../fsh2
+mv ./dodo-fear/ ../fsh2
+sudo chmod -R 600 ../fsh2
+cd ..
+rm -rf ./fsh1
+echo "лабораторная работа 1 выполнена"
